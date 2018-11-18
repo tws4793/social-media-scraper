@@ -13,4 +13,5 @@ RUN apk add chromium chromium-chromedriver
 # install selenium
 RUN pip install -U pip \
     beautifulsoup4 \
+    python-dotenv \
     selenium \
