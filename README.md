@@ -10,7 +10,7 @@ First, start your instance of Docker and build the `Dockerfile` by running:
 
 ``` bash
 
-docker build .
+docker build -t py-selenium .
 ```
 
 Then start a standalone headless Chrome browser in a new Docker container by running:
